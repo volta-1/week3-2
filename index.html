@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="xywang 的前端网页作品集">
+  <meta name="theme-color" content="#071412">
+  <title>xywang — 前端网页作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- 顶部标题区 -->
+    <header class="masthead">
+      <span class="masthead__dot" aria-hidden="true"></span>
+      <h1 class="masthead__title">xywang的前端网页作品集</h1>
+      <p class="masthead__subtitle">
+        这是我的前端网页作品，点击下方卡片即可跳转到具体页面，探索每一个项目的交互与实现。
+      </p>
+    </header>
+
+    <!-- 作品展示区 -->
+    <section class="showcase" aria-labelledby="showcase-heading">
+      <h2 id="showcase-heading" class="showcase__heading">Featured Works</h2>
+      <div id="project-grid" class="project-grid" role="list" aria-label="项目列表"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
